@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Details</title>
+    <style>
+        h1
+        {text-align:center; font-style: italic; font-size: 50px;}
+        body
+        {text-align: center; background-color: azure; font-size: 30px}
+
+    </style>
+</head>
+<body>
+<h1> Monthly Expenditure Details </h1>
+Food={{ a.food }}<br>
+Trip={{ a.trip }}<br>
+Shopping={{ a.shopping }}<br>
+Total Amount={{ a.total }}<br>
+<form action="/indexp/" method="GET">
+
+    Enter No. of Participants:<input type="number" name="t4"><br>
+<input type="submit" value="submit">
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{text-align: center; font-size: 50px; color: blue; background-color: deepskyblue}
+    </style>
+</head>
+<body>
+<form action="/exp/" method="post">
+    {% csrf_token %}
+    Enter Room Id:<input type="number" name="p1">
+    <input type="submit" value="submit">
+
+</form>
+</body>
+</html>
